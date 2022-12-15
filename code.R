@@ -142,12 +142,14 @@ for (ts in c(1:length(data.idx))){
   data.tr <- filtered.data[train.idx,]
   label.tr <- labels[train.idx]
   
-  print('Train labels: ',label.tr)
+  print('Train labels: ')
+  print(label.tr)
   
   # generating test data and labels as per the test index
   data.ts <- t(filtered.data[test.idx,])
   label.ts <- labels[test.idx]
-  print('Test labels: ',label.ts)
+  print('Test labels: ')
+  print(label.ts)
   
   tr.df<-as.data.frame(data.tr)
   ts.df<-as.data.frame(data.ts)
@@ -227,15 +229,19 @@ svmr.accuracy <- sum(diag(svmr.table))/sum(svmr.table)
 svml.accuracy <- sum(diag(svml.table))/sum(svml.table)
 dt.accuracy <- sum(diag(dt.table))/sum(dt.table)
 
+print("Random Forest Classifier Results ::")
 print(rfc.table)
 print(rfc.accuracy) 
 
+print("SVM with Radial Kernel Results ::")
 print(svmr.table)
 print(svmr.accuracy) 
 
+print("SVM with Linear Kernel Results ::")
 print(svml.table)
 print(svml.accuracy) 
 
+print("Decision Tree Classifier Results ::")
 print(dt.table)
 print(dt.accuracy) 
 
