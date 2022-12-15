@@ -1,15 +1,7 @@
 # Bioinformatics in Agricultural Crops
 
 #### Abstract
-
-
-
-
-
-
-
-
-
+Agriculture is deeply affected by climate change in terms of yield and quality of crops. Bioinformatics has been contributing to the sustainable development of agriculture; it has helped understand the plant’s genetic resources and its response to numerous factors. Due to the complexity of stress conditions, there is a crucial need to discover the mechanisms of genetic response against various stress factors and study the patterns of the stress-responsive genome molecular mechanisms. Keeping these responses in mind, crops that can stand stronger in harsh conditions could be reproduced with bioengineering. Previous works include microarray analysis to determine the cross-responsive genes in plants under influence of biotic and abiotic factors. This study is an effort to perform multiclass classification on the expressed genes. Random Forest algorithm is used to classify differentially expressed genes (DEGs) in cotton influenced by abiotic factors like cold, acid, salinity, and drought using the GEO (Series GSE50770) dataset. The model performance was outlined by a confusion matrix. Future work will be focused on the efficient filtering of the least responsive genes, improving the accuracy of the model, identifying the differentially expressed genes, and deriving relevant conclusions that can contribute to the survival of agricultural crops on the planet.
 
 #
 Steps for Windows OS:
